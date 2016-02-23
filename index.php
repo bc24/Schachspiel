@@ -4,6 +4,13 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/basestyle.php">
 	<?php
+	/**
+	 * Created by PhpStorm.
+	 * User: Frank
+	 * Letzter bearbeitungspunkt: 23.02.2016
+	 * Time: 15:29
+	 */
+
 			function schachregeln($_zugnr,$_vonZeile, $_vonSpalte,$_nachZeile, $_nachSpalte) {
 				if ($_vonZeile == $_nachZeile && $_vonSpalte == $_nachSpalte) {
 					return false;
